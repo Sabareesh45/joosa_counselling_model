@@ -1,7 +1,7 @@
 # joosa_counselling_model
 A replication model which is similar to counselling systems used nowadays.
 ## libraries
-tkinter,pandas,numpy.
+tkinter,pandas.
 
 > **Install these _Libraries_ by using these codes**
 
