@@ -8,7 +8,9 @@ tkinter,pandas,numpy.
 ```pip install pandas```
 
 
-If you want to know more about [Pandas](https://Pandas-python.readthedocs.io/).
+If you want to know more about [Pandas](https://pandas.pydata.org/).
+
+If you want to know more about [Tkinter](https://docs.python.org/3/library/tkinter.html).
 
 
 
