@@ -282,7 +282,7 @@ def Executer():
         df = pd.DataFrame.from_dict(out, orient='index')
         df = df.transpose()
         df = df.rename_axis("{}".format(i))
-        df.to_csv(r"C:\Users\pranav\Desktop\New folder\Outputs\{}.csv".format(i), index=False)
+        df.to_csv(r"C:\Users\pranav\Desktop\New folder\Outputs\{}.csv".format(i), index=False)#give loaction where u want the outputs to get saved.
 
     print('Data submitted')
 
