@@ -94,7 +94,7 @@ def Executer():
 
         return studic
 
-    col_csv = pd.read_csv(url2)#("C:/Users/pranav/Desktop/New folder/Inputs/Test small/College.csv")
+    col_csv = pd.read_csv(url2)#("C:/Users/pranav/Desktop/New folder/Inputs/Test small/College.csv") 
     stu_csv = pd.read_csv(url1)#("C:/Users/pranav/Desktop/New folder/Inputs/Test small/Student.csv")
 
     print("Data Inputted")
@@ -265,13 +265,13 @@ def Executer():
 
     dfc = pd.DataFrame(college)
     dfc = dfc.transpose()
-    dfc.to_csv(r"C:\Users\Sabareesh\Desktop\Newfolder\Outputs\College data.csv",index=True)
+    dfc.to_csv(r"C:\Users\Sabareesh\Desktop\Newfolder\Outputs\College data.csv",index=True)#give loaction where u want the outputs to get saved.
 
     stu = pd.DataFrame(student)
     stu = stu.transpose()
     stu = stu.sort_values(stu.columns[1], axis=0)
     stu = stu.set_index(stu.columns[1]).reset_index()
-    stu.to_csv(r"C:\Users\Sabareesh\Desktop\New folder\Outputs\Student data.csv", index=False)
+    stu.to_csv(r"C:\Users\Sabareesh\Desktop\New folder\Outputs\Student data.csv", index=False)#give loaction where u want the outputs to get saved.
 
     for i in college.keys():
         out = {}
